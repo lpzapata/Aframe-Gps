@@ -1,8 +1,6 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
-    <script src="https://unpkg.com/aframe-gradient-sky@1.2.0/dist/gradientsky.min.js"></script>
   </head>
   <body>
     <a-scene>
@@ -13,7 +11,7 @@
                 light="type: point; intensity: 5"
                 animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true"></a-entity>
 
-      <a-sky src="Artboard7.jpg" rotation="0 -130 0"></a-sky>
+      <a-sky src="Artboard7.jpg" rotation="0 -130 0" transparent ="true"></a-sky>
     </a-scene>
   </body>
 </html>
